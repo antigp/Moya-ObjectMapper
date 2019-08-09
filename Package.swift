@@ -28,6 +28,7 @@ let package = Package(
         .target(
             name: "Moya-RxSwift-ObjectMapper",
             dependencies: [
+                "Moya-ObjectMapper",
                 "Moya",
                 "RxMoya",
                 "ObjectMapper",
@@ -38,6 +39,7 @@ let package = Package(
         .target(
             name: "Moya-ReactiveSwift-ObjectMapper",
             dependencies: [
+                "Moya-ObjectMapper",
                 "Moya",
                 "ReactiveMoya",
                 "ObjectMapper",
