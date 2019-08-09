@@ -9,6 +9,7 @@ import Foundation
 import RxSwift
 import Moya
 import ObjectMapper
+import Moya_ObjectMapper
 
 /// Extension for processing Responses into Mappable objects through ObjectMapper
 public extension ObservableType where E == Response {
